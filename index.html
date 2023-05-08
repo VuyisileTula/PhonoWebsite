@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/simple-lightbox.min.css">
+    <link rel="stylesheet" href="css/Icons/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Phono </title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html"><h1 class="logo">Phono</h1></a>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>The headphones of the future</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quibusdam cumque obcaecati ut doloribus hic, quisquam totam reprehenderit quos consequuntur tempore repellendus, modi quo suscipit itaque. Veniam natus sit at?</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <img src="images/01.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Loud and Clear</h3>
+                <h2>People can now hear all the music</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, quidem labore quae suscipit, facilis aut, esse deleniti dicta aperiam voluptatem est nihil pariatur quos mollitia!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-c">
+        <div class="gallery">
+            <a href="images/03.jpg" class="big"><img src="images/03.jpg" alt=""></a>
+            <a href="images/04.jpg" class="big"><img src="images/04.jpg" alt=""></a>
+            <a href="images/05.jpg" class="big"><img src="images/05.jpg" alt=""></a>
+            <a href="images/01.jpg" class="big"><img src="images/01.jpg" alt=""></a>
+            <a href="images/02.jpg" class="big"><img src="images/02.jpg" alt=""></a>
+        </div>
+    </section>
+
+    <footer class="section-footer">
+        <div class="container">
+            <div>
+                <h2>Lorem ipsum dolor sit.</h2>
+                <a href="#"><i class="fas fa-house fa-2x"></i></a>
+                <a href="#"><i class="fas fa-book fa-2x"></i></a>
+                <a href="#"><i class="fas fa-pencil fa-2x"></i></a>
+            </div>
+            <div>
+            <h3>Company Info</h3>
+            <ul>
+                <li><a href="#">All products</a></li>
+                <li><a href="#">All products</a></li>
+                <li><a href="#">All products</a></li>
+                <li><a href="#">All products</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Blog post</h3>
+            <ul>
+            <li><a href="#">Lorem ipsum </a></li>
+            <li><a href="#">Lorem ipsum </a></li>
+            <li><a href="#">Lorem ipsum </a></li>
+            <li><a href="#">Lorem ipsum </a></li>
+        </ul>
+        </div>
+        <div>
+            <h3>subscribe</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, beatae.</p>
+            <form name="email-form" method="POST" data-netlify="true">
+                <div class="email-form">
+                    <span class="form-control-wrap">
+                        <input type="email" name="email" id="email" size="40" class="form-control" placeholder="Email">
+                    </span>
+                    <button type="submit" class="form-control submit">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="js/simple-lightbox.min.js">
+        $(function(){
+            const $gallery = $('.gallery a').simpleLightbox();
+        });
+    </script>
+</body>
+</html>
